@@ -50,8 +50,7 @@ main{
   margin-left:5%;
 }
 #welcome-section{
-  height:100vh;
-  padding-top:100px;
+  padding:100px 0 80px 0;
 }
 
 #welcome-section p{
@@ -60,15 +59,12 @@ main{
   font-size:28px;
 }
 .contact{
-  margin-top:32px;
-  font-size:20px;
+  margin-top:16px;
+  font-size:18px;
 }
 .email{
-  font-family:mono;
-  font-weight:bold;
   text-decoration:underline;
   cursor:pointer;
-  font-size:16px;
 }
 #navbar{
   display:flex;
@@ -104,8 +100,8 @@ main{
   font-weight:600;
 }
 #projects{
-  min-height:100vh;
   width:100%;
+  padding-bottom: 80px;
 }
 .project-list{
   width:100%;
@@ -163,7 +159,6 @@ main{
     min-width:500px;
   }
   #welcome-section{
-    height:auto;
     padding:100px 0;
   }
 }
@@ -193,9 +188,6 @@ main{
   }
   h1,h2{
     font-size:2.8rem;
-  }
-  #projects{
-    padding:100px 0;
   }
 }
 @media (max-width:400px){
